@@ -1,3 +1,3 @@
 # Notes App
 
-## Notes App with React and .NET Core API
+ Notes App with React and .NET Core API
