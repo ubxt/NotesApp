@@ -1,0 +1,79 @@
+a{
+  text-decoration: none;
+}
+
+.app {
+  min-height: 100vh;
+  background:aliceblue;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2em;
+}
+
+.card-custom{
+  background: rgba(114, 114, 224, 0.932);
+  color: aliceblue;
+  border:2px solid black;
+  border-radius:10px;
+}
+
+.card-custom:hover {
+  background: magenta;
+}
+
+.card-custom > a{
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.login{
+  max-width: 50vw;
+  padding: 100px;
+  margin: 0 auto;
+  background: white;
+  border: 1px solid rgba(0, 0, 0, .1);
+}
+.login-heading{
+  margin-bottom: 30px;
+}
+
+.form-control{
+  position: relative;
+  font-size: 16px;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.form-control:focus{z-index: 2;}
+
+input[type="text"]{
+  margin-bottom: 20px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.custom-title-input{
+  font-size: 2em;
+  border-radius: 10px;
+  border-color: black;
+  color: aliceblue;
+  background-color: rgb(2, 2, 83);
+}
+
+.custom-content-textarea{
+  font-size: 1.2em;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: aliceblue;
+  background-color: rgba(2, 2, 83, 0.445);
+}
+
+.userBtn{
+  margin-bottom: 10px;
+}
+
+.form-group{
+  margin-bottom: 10px;
+}
